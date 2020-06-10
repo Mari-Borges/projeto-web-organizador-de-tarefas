@@ -1,2 +1,5 @@
 .vscode/
 .projeto-wed-organicador-de-tarefas/
+.node_modules/
+.telacad
+.telalog
