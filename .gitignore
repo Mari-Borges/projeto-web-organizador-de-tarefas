@@ -1,5 +1,8 @@
 .vscode/
 .projeto-wed-organicador-de-tarefas/
-.node_modules/
-.telacad
-.telalog
+        .Telacad/
+        .Telalog/
+        .karma.conf.js
+        .node_modules/
+        .package-lock.json
+        .package.json

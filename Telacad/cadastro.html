@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<body style="background-color: rgb(126, 133, 133);"> 
+    <form action="" class="container" style="background-color: rgb(247, 247, 247);">
+    <div class="form-group" class="container-fluid">
+        <label for="exampleFormControlTextarea1">Descrisão</label><br>
+        <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="text">Atividades</label><br>
+        <input type="text" id="atividades" name="atividades" ng-model="">
+      </div>
+      <div>
+        <label for="exampleInput">Calendario</label><br>
+        <input type="date" id="exampleInput" name="input" ng-model="example.value"
+            placeholder="yyyy-MM-dd" min="1987-01-01" max="2020-12-31" required /></div><br>
+        <label for="hora-cons">Escolha o horário: </label><br>
+        <input id="hora-cons" type="time" name="hora-cons" value="12:00"><br><br>
+
+
+            <button type="button" class="btn btn-primary">Adicionar</button>
+    </form>
+</body>
+</html>
