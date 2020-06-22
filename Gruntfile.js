@@ -18,10 +18,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-
-
-
-        
         html2js: {
             dist: {
                 src: ['app/templates/*.html'],
